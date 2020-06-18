@@ -1,0 +1,14 @@
+.box{
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+    text-align: center;
+    padding-top: 180px;
+}
+
+button{
+    height: 50px;
+    width: 175px;
+    background-color: azure;
+}
+

@@ -10,7 +10,7 @@ function App() {
 
   return (
     <CounterContext.Provider value={CountState}>
-    <div>
+    <div className="box">
       <Parent />
     </div>
     </CounterContext.Provider>
