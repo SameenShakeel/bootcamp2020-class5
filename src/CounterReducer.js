@@ -1,10 +1,10 @@
-import React from 'react';
-
 const CounterReducer = (state, action) => {
-    switch (action) {
-      case 'INCREMENT':
-        return state + 1
-    }
+  switch (action) {
+    case 'INCREMENT':
+      return state + 1
+    default:
+      throw new Error()
   }
+}
 
 export default CounterReducer;
